@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+    <link rel="website icon" type="jpg" href="icon/972105c5a775f38cf33d3924aea053f1.jpg">
+    <link rel="stylesheet" href="../assets/css/styles/login.css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'> 
+</head>
+<body>
+    <div class="container">
+         <div class="form-image">
+            <img src="../image/undraw_chatting_5u5z.svg">
+        </div>
+        <form onsubmit="return false;">
+            <h1>Login</h1>
+            <div class="input-box">
+                <Input placeholder="E-mail :" type="email" id="email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="input-box">
+                <Input placeholder="Senha :" type="password" id="password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="Remember-forgot">
+                <label>
+                 <input type="checkbox" id="mostrarSenha"> 
+                Mostrar senha
+                </label>
+                <a href="pass.html">Esqueci Senha</a>
+            </div>
+            <div class="div1">
+                <button type="submit" class="login" onclick="validar()">Login</button>
+            </div>
+            <div class="register-link">
+                <p>Não tem uma Conta? <a href="regist.html">Cadastre-se</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script/login.js/scipt.js"></script>
+</body>
+</html>
